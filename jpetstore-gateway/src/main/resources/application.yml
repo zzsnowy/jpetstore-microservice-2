@@ -1,0 +1,30 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+    gateway:
+      routes:
+        - id: p_route
+          uri: lb://jpetstore-cart
+          predicates:
+            - Path=/cart/**,/catalog/**,/searchProduct/**
+#          filters:
+#            - RewritePath=/product/(?<segment>.*),/$\{segment}
+        - id: a_route
+          uri: lb://jpetstore-account
+          predicates:
+            - Path=/account/**
+        - id: o_route
+          uri: lb://jpetstore-order
+          predicates:
+            - Path=/order/**
+
+
+
+
+  application:
+    name: jpetstore-gateway
+
+

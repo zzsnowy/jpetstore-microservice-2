@@ -1,0 +1,14 @@
+2021-04-12 10:37:48.164  WARN 7492 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h31s949ms743µs600ns).
+2021-04-12 10:39:03.568  INFO 7492 --- [http-nio-7002-exec-6] o.m.j.cart.controller.CatalogController  : 跳往商品大类,Id:FISH
+2021-04-12 10:39:04.919  INFO 7492 --- [http-nio-7002-exec-7] o.m.j.cart.controller.CatalogController  : 跳到商品小类成功Koi
+2021-04-12 10:39:04.920  INFO 7492 --- [http-nio-7002-exec-7] o.m.j.cart.controller.CatalogController  : 跳往商品小类,Id:FI-FW-01
+2021-04-12 10:39:19.927  INFO 7492 --- [http-nio-7002-exec-9] o.m.j.cart.controller.CatalogController  : 跳往商品大类,Id:DOGS
+2021-04-12 10:39:21.721  INFO 7492 --- [http-nio-7002-exec-8] o.m.j.cart.controller.CatalogController  : 跳到商品小类成功Dalmation
+2021-04-12 10:39:21.721  INFO 7492 --- [http-nio-7002-exec-8] o.m.j.cart.controller.CatalogController  : 跳往商品小类,Id:K9-DL-01
+2021-04-12 10:39:22.847  INFO 7492 --- [http-nio-7002-exec-10] o.m.j.cart.controller.CartController     : 往购物车加商品,商品号：EST-10
+2021-04-12 10:39:25.083  INFO 7492 --- [http-nio-7002-exec-1] o.m.j.cart.controller.CatalogController  : 跳往商品大类,Id:BIRDS
+2021-04-12 10:39:26.287  INFO 7492 --- [http-nio-7002-exec-2] o.m.j.cart.controller.CatalogController  : 跳到商品小类成功Finch
+2021-04-12 10:39:26.288  INFO 7492 --- [http-nio-7002-exec-2] o.m.j.cart.controller.CatalogController  : 跳往商品小类,Id:AV-SB-02
+2021-04-12 10:39:27.283  INFO 7492 --- [http-nio-7002-exec-3] o.m.j.cart.controller.CatalogController  : 跳往某一特定商品,Id:EST-19
+2021-04-12 10:39:28.516  INFO 7492 --- [http-nio-7002-exec-4] o.m.j.cart.controller.CartController     : 往购物车加商品,商品号：EST-19
+2021-04-12 10:39:41.646  INFO 7492 --- [http-nio-7002-exec-5] o.m.j.cart.controller.CatalogController  : 到达主页
